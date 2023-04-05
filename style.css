@@ -1,255 +1,261 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
-    font-family: Blackned;
-    src: url(assets/fuentes/Blacknorthdemo-mLE25.otf);
+  font-family: Blackned;
+  src: url(assets/fuentes/Blacknorthdemo-mLE25.otf);
 }
-
 @font-face {
-    font-family: MetFont;
-    src: url(assets/fuentes/MetalliFont.TTF);
+  font-family: MetFont;
+  src: url(assets/fuentes/MetalliFont.TTF);
 }
-
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .barra {
-    background-color: black;
+  background-color: black;
 }
-
-.f-letter {
-    padding-left: 15px;
+.barra .f-letter {
+  padding-left: 15px;
+}
+.barra .navbar-brand {
+  font-family: Blackned;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
 }
 
 .f-letter::first-letter {
-    font-family: MetFont;
-    font-size: 60px;
-    text-shadow: 2px 10px 3px yellow;
-    color: rgb(255, 255, 255);
-}
-.navbar-brand {
-    font-family: Blackned;
-    font-size: 30px;
-    color: rgb(255, 255, 255);
+  font-family: MetFont;
+  font-size: 60px;
+  text-shadow: 2px 10px 3px yellow;
+  color: rgb(255, 255, 255);
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: rgb(255, 255, 255);
-    font-family: Blackned;
-    font-size: 25px;
-    word-spacing: normal;
+  color: rgb(255, 255, 255);
+  font-family: Blackned;
+  font-size: 25px;
+  word-spacing: normal;
 }
-.navbar-dark .navbar-nav .nav-link:hover{
-    scale: 1.1;
-    transition: 1.8s;
-    color: yellow;
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  scale: 1.1;
+  transition: 1.8s;
+  color: yellow;
 }
 
 .jumbotron {
-    width: 100%;
-    height: 600px;
-    background-image: url(assets/Img/Main-Metalifan.gif);
-    background-position: center;
-    background-size: cover;
+  width: 100%;
+  height: 600px;
+  background-image: url(assets/Img/Main-Metalifan.gif);
+  background-position: center;
+  background-size: cover;
+  font-size: 40px;
+  letter-spacing: 25px;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 30%;
+  margin: 0;
 }
-
-.redes {
-    font-size: 40px;
-    letter-spacing: 25px;
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 30%;
-    margin: 0;
-}
-.redes a{
-    color: gray;
+.jumbotron a {
+  color: gray;
 }
 
 .albums {
-    width: 100%;
-    height: 200px;
-    background-color: gray;
-    background-image: url(assets/Img/albums.jpg);
-    background-position: center;
-    background-size: cover;
-    font-family: Blackned;
-    text-align: center;
-    display: flex;
+  width: 100%;
+  height: 200px;
+  background-color: gray;
+  background-image: url(assets/Img/albums.jpg);
+  background-position: center;
+  background-size: cover;
+  font-family: Blackned;
+  text-align: center;
+  display: flex;
+}
+.albums a {
+  font-size: 50px;
+  background-color: rgba(0, 0, 0, 0.603);
+  color: white;
+  height: 200px;
+  width: 100%;
+  padding: 80px;
+  text-decoration: none;
 }
 
 .albums:hover {
-    transform: scale(1.1);
-    transition: all 0.9s;
-}
-
-.albums a {
-    font-size: 50px;
-    background-color: rgba(0, 0, 0, 0.603);
-    color: white;
-    height: 200px;
-    width: 100%;
-    padding: 80px;
-    text-decoration: none;
+  transform: scale(1.1);
+  transition: all 0.9s;
 }
 
 h2 {
-    font-size: 30px;
-    background-color: black;
-    font-family: Blackned;
-    color: white;
-    margin: 0;
-    text-align: center;
-    padding: 15px;
-
+  font-size: 30px;
+  background-color: black;
+  font-family: Blackned;
+  color: white;
+  margin: 0;
+  text-align: center;
+  padding: 15px;
 }
 
 .formulario {
-    background-image: url(assets/Img/Metallicasillon.jpg);
-    background-size: cover;
-    background-position: top;
-    padding: 10px;
+  background-image: url(assets/Img/Metallicasillon.jpg);
+  background-size: cover;
+  background-position: top;
+  padding: 10px;
+}
+.formulario .form-control {
+  background-color: rgba(0, 0, 0, 0.377);
+  color: white;
+  margin-bottom: 10px;
+}
+.formulario label {
+  font-size: 15px;
+  font-family: Blackned;
+  color: white;
+  letter-spacing: 1.5;
+}
+.formulario .btn {
+  background-color: rgba(0, 0, 0, 0.068);
+  border: 1px solid gray;
+  font-family: Blackned;
+  color: white;
+  box-shadow: 0.2px ease-in-out;
+}
+.formulario .btn1 {
+  margin-top: 15px;
 }
 
-.form-control {
-    background-color: rgba(0, 0, 0, 0.377);
-    color: white;
-    margin-bottom: 10px;
-}
-label {
-    font-size: 15px;
-    font-family: Blackned;
-    color: white;
-    letter-spacing: 1.5;
-}
-.btn{
-    background-color: rgba(0, 0, 0, 0.068);
-    border: 1px solid gray;
-    font-family: Blackned;
-    color: white;
-    box-shadow: 0.2px ease-in-out;
-}
-.btn:hover{
-    transition: 0.8s;
-    box-shadow: 0 0 40px 40px yellow inset;
-    color: black;
-}
-.btn1{
-    margin-top: 15px;
+.btn:hover {
+  transition: 0.8s;
+  box-shadow: 0 0 40px 40px yellow inset;
+  color: black;
 }
 
-footer{
-    margin: 0;
-    height: 150px;
-    width: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-family: Blackned;
-    padding: 30px;
-    font-size: 20px;
+footer {
+  margin: 0;
+  height: 150px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: Blackned;
+  padding: 30px;
+  font-size: 20px;
+}
+footer .sociales {
+  font-size: 30px;
+  margin-top: 15px;
+  word-spacing: 25px;
+  text-align: center;
+  color: white;
 }
 
-.sociales {
-    font-size: 30px;
-    margin-top: 15px;
-    word-spacing: 25px;
-    text-align: center;
-    color: white;
-}
-/* pagina "almbums.html" inicia */
-.conteiner-fluid.row{
-    background-image: url(assets/Img/BG-Cenizas.gif);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: auto;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin: 0;
-    display: flex;
-    justify-content: space-evenly;
-}
-.subt{
-    font-family: Blackned;
-    font-size: 35px;
-    color: black;
-    text-align: center;
-    padding: 10px;
-}
-.card{
-    border: 2px solid black;
-    margin: 5px;
-}
-div{
-    display:contents;
-}
-.col-sm-5{
-    padding: 1px;
-    max-width: 100%;
-    border: 5px solid black inset;
-}
-.card{
-    border: 5px solid black;
-    padding: 5px;
-    text-align: center;
-    background-color: rgba(255, 255, 0, 0.171);
-}
-.img{
-    width: 100%;
-    height: 400px;
-    background-position: center;
-    background-size: cover;
-}
-.img:hover{
-    transform: scale(1.1);
-    transition: 1s;
-}
-h4{
-    font-family: Blackned;
-    font-size: 45px;
-    padding-top: 10px;
-}
-.btn{
-    background-color: black;
-    color: yellow;
-    font-size: 25px;
-    width: 50%;
+.conteiner-fluid.row {
+  background-image: url(assets/Img/BG-Cenizas.gif);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-
-.img1{
-    background-image: url(assets/Img/Albums/kill-em-all-m-2.png);
-}
-.img2{
-    background-image: url(assets/Img/Albums/ridethelightning.jpg);
-}
-.img3{
-    background-image: url(assets/Img/Albums/Master.jpg);
-}
-.img4{
-    background-image: url(assets/Img/Albums/justice.jpg);
-}
-.img5{
-    background-image: url(assets/Img/Albums/blackalbum.jpg);
-}
-.img6{
-    background-image: url(assets/Img/Albums/loadreload.jpg);
-}
-.img7{
-    background-image: url(assets/Img/Albums/StAnger.jpg);
-}
-.img8{
-    background-image: url(assets/Img/Albums/death.jpg);
-}
-.img9{
-    background-image: url(assets/Img/Albums/hardwired.jpg);
+.subt {
+  font-family: Blackned;
+  font-size: 35px;
+  color: black;
+  text-align: center;
+  padding: 10px;
 }
 
+.card {
+  border: 2px solid black;
+  margin: 5px;
+}
 
+div {
+  display: contents;
+}
 
+.col-sm-5 {
+  padding: 1px;
+  max-width: 100%;
+  border: 5px solid black inset;
+}
 
+.card {
+  border: 5px solid black;
+  padding: 5px;
+  text-align: center;
+  background-color: rgba(255, 255, 0, 0.171);
+}
+
+.img {
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+
+.img:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+h4 {
+  font-family: Blackned;
+  font-size: 45px;
+  padding-top: 10px;
+}
+
+.btn {
+  background-color: black;
+  color: yellow;
+  font-size: 25px;
+  width: 50%;
+}
+
+.img1 {
+  background-image: url(assets/Img/Albums/kill-em-all-m-2.png);
+}
+
+.img2 {
+  background-image: url(assets/Img/Albums/ridethelightning.jpg);
+}
+
+.img3 {
+  background-image: url(assets/Img/Albums/Master.jpg);
+}
+
+.img4 {
+  background-image: url(assets/Img/Albums/justice.jpg);
+}
+
+.img5 {
+  background-image: url(assets/Img/Albums/blackalbum.jpg);
+}
+
+.img6 {
+  background-image: url(assets/Img/Albums/loadreload.jpg);
+}
+
+.img7 {
+  background-image: url(assets/Img/Albums/StAnger.jpg);
+}
+
+.img8 {
+  background-image: url(assets/Img/Albums/death.jpg);
+}
+
+.img9 {
+  background-image: url(assets/Img/Albums/hardwired.jpg);
+}
+
+/*# sourceMappingURL=style.css.map */
