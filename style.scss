@@ -13,7 +13,6 @@
     font-family: MetFont;
     src: url(assets/fuentes/MetalliFont.TTF);
 }
-
 html {
     scroll-behavior: smooth;
 }
@@ -48,7 +47,7 @@ html {
     color: yellow;
 }
 
-.jumbotron {
+.cont-new-album {
     width: 100%;
     height: 600px;
     background-image: url(assets/Img/Main-Metalifan.gif);
@@ -250,8 +249,20 @@ h4{
 .cont-kill{
     background-image: url(assets/Img/Albums/kill-em-all-m-2.png);
     background-position: center;
-    background-size: cover;
-    opacity: 1.1;
-    width: 100%;
-    height: 700px;
+    background-size: contain;
+    margin: 0;
+    h1{
+        text-align: center;
+        font-family: Blackned;
+        font-size: 55px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.356);
+        word-spacing: 5px;
+    }
+    p{
+        color: white;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.356);
+    }
 }
+
