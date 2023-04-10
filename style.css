@@ -287,5 +287,100 @@ h4 {
   text-align: right;
   padding-right: 20px;
 }
+.cont-kill a {
+  color: white;
+  font-size: 55px;
+  font-family: Blackned;
+  text-decoration: none;
+  text-shadow: 0px 1px 7px rgb(254, 255, 253);
+}
+
+.cont-ride {
+  background-image: url(assets/Img/Albums/ridethelightning.jpg);
+  background-position: center, bottom 100px;
+  background-size: cover;
+  margin: 0;
+}
+.cont-ride h1 {
+  text-align: center;
+  width: 100%;
+  font-family: Blackned;
+  font-size: 55px;
+  color: white;
+  word-spacing: 5px;
+  background-color: rgba(0, 0, 0, 0.356);
+}
+.cont-ride p {
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.356);
+}
+.cont-ride .flechas {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.cont-ride .flechas .btn-ride-derecha {
+  font-size: 55px;
+  text-align: right;
+  padding-right: 20px;
+}
+.cont-ride .flechas a {
+  color: white;
+  font-size: 55px;
+  font-family: Blackned;
+  text-decoration: none;
+  text-shadow: 0px 1px 7px rgb(254, 255, 253);
+}
+.cont-ride .flechas .btn-ride-left {
+  font-size: 55px;
+  text-align: left;
+  padding-right: 20px;
+}
+
+.cont-master {
+  background-image: url(assets/Img/Albums/Master.jpg);
+  background-position: center, bottom 100px;
+  background-size: cover;
+  margin: 0;
+}
+.cont-master h1 {
+  text-align: center;
+  width: 100%;
+  font-family: Blackned;
+  font-size: 55px;
+  color: white;
+  word-spacing: 5px;
+  background-color: rgba(0, 0, 0, 0.356);
+}
+.cont-master p {
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.356);
+}
+.cont-master .flechas {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.cont-master .flechas .btn-ride-derecha {
+  font-size: 55px;
+  text-align: right;
+  padding-right: 20px;
+}
+.cont-master .flechas a {
+  color: white;
+  font-size: 55px;
+  font-family: Blackned;
+  text-decoration: none;
+  text-shadow: 0px 1px 7px rgb(254, 255, 253);
+}
+.cont-master .flechas .btn-ride-left {
+  font-size: 55px;
+  text-align: left;
+  padding-right: 20px;
+}
 
 /*# sourceMappingURL=style.css.map */
