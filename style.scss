@@ -245,128 +245,115 @@ h4{
 .img9{
     background-image: url(assets/Img/Albums/hardwired.jpg);
 }
-// kill em all inicia
+// albums informativos inicia
+.cont-albums{
+    background-position: center, bottom 100px;
+    background-size: cover;
+    margin: 0;
+    h1{
+        text-align: center;
+        width: 100%;
+        font-family: Blackned;
+        font-size: 55px;
+        color: white;
+        word-spacing: 5px;
+        background-color: rgba(0, 0, 0, 0.356);
+    }
+    p{
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.356);
+    }
+    .flechas{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        .btn-ride-derecha{
+            font-size: 55px;
+            padding-right: 20px;
+        }
+        a{
+            color: white;
+            font-size: 55px;
+            font-family: Blackned;
+            text-decoration: none;
+            text-shadow: 0px 1px 7px rgb(254, 255, 253);
+        }
+        .btn-ride-left{
+            font-size: 55px;
+            padding-right: 20px;
+        }    
+    }
+}
 .cont-kill{
     background-image: url(assets/Img/Albums/kill-em-all-m-2.png);
-    background-position: center;
-    background-size: contain;
-    margin: 0;
-    h1{
-        text-align: center;
-        font-family: Blackned;
-        font-size: 55px;
-        color: white;
-        background-color: rgba(0, 0, 0, 0.356);
-        word-spacing: 5px;
-    }
-    p{
-        color: rgb(255, 255, 255);
-        padding: 10px;
-        background-color: rgba(0, 0, 0, 0.356);
-    }
-    .btn-ride-derecha{
+    .flecha-kill{
         width: 100%;
         height: 100px;
-        font-size: 55px;
-        text-align: right;
-        padding-right: 20px;
+        display: flex;
+        justify-content: flex-end;
+        .btn-ride-derecha-kill{
+            font-size: 55px;
+            padding-right: 20px;
+            a{
+                color: white;
+                font-size: 55px;
+                font-family: Blackned;
+                text-decoration: none;
+                text-shadow: 0px 1px 7px rgb(254, 255, 253);
+            }    
+        }
     }
-    a{
-        color: white;
-        font-size: 55px;
-        font-family: Blackned;
-        text-decoration: none;
-        text-shadow: 0px 1px 7px rgb(254, 255, 253);
     }
-}
-// kill em all fin
-// ride the lightning inicia
 .cont-ride{
     background-image: url(assets/Img/Albums/ridethelightning.jpg);
-    background-position: center, bottom 100px;
-    background-size: cover;
-    margin: 0;
-    h1{
-        text-align: center;
-        width: 100%;
-        font-family: Blackned;
-        font-size: 55px;
-        color: white;
-        word-spacing: 5px;
-        background-color: rgba(0, 0, 0, 0.356);
-    }
-    p{
-        color: rgb(255, 255, 255);
-        padding: 10px;
-        background-color: rgba(0, 0, 0, 0.356);
-    }
-    .flechas{
-        width: 100%;
-        height: 100px;
-        display: flex;
-        justify-content: space-between;
-        .btn-ride-derecha{
-            font-size: 55px;
-            text-align: right;
-            padding-right: 20px;
-        }
-        a{
-            color: white;
-            font-size: 55px;
-            font-family: Blackned;
-            text-decoration: none;
-            text-shadow: 0px 1px 7px rgb(254, 255, 253);
-        }
-        .btn-ride-left{
-            font-size: 55px;
-            text-align: left;
-            padding-right: 20px;
-        }    
-    }
 }
-// ride the lightning fin
-// master of puppets inicia
 .cont-master{
     background-image: url(assets/Img/Albums/Master.jpg);
-    background-position: center, bottom 100px;
-    background-size: cover;
-    margin: 0;
-    h1{
-        text-align: center;
-        width: 100%;
-        font-family: Blackned;
-        font-size: 55px;
-        color: white;
-        word-spacing: 5px;
-        background-color: rgba(0, 0, 0, 0.356);
-    }
-    p{
-        color: rgb(255, 255, 255);
-        padding: 10px;
-        background-color: rgba(0, 0, 0, 0.356);
-    }
+}
+.cont-death{
+    background-image: url(assets/Img/Albums/death.jpg);
+    background-position: center;
     .flechas{
-        width: 100%;
-        height: 100px;
-        display: flex;
-        justify-content: space-between;
-        .btn-ride-derecha{
-            font-size: 55px;
-            text-align: right;
-            padding-right: 20px;
+        a{
+            text-shadow: 0px 1px 7px rgb(0, 0, 0);
         }
+    }
+}
+.cont-black{
+    background-image: url(assets/Img/Albums/blackalbum.jpg);
+}
+.cont-loadreload{
+    background-image: url(assets/Img/Albums/loadreload.jpg);
+}
+.cont-stanger{
+    background-image: url(assets/Img/Albums/StAnger.jpg);
+}
+.cont-justice{
+    background-image: url(assets/Img/Albums/justice.jpg);
+    .flechas{
+        a{
+            text-shadow: 0px 1px 7px rgb(15, 15, 15);
+        }
+    }
+}
+.cont-hardwired{
+    background-image: url(assets/Img/Albums/hardwired.jpg);
+    .flechas-hardwired{
+        display: flex;
+        justify-content: flex-end;
         a{
             color: white;
             font-size: 55px;
             font-family: Blackned;
             text-decoration: none;
-            text-shadow: 0px 1px 7px rgb(254, 255, 253);
+            text-shadow: 0px 1px 7px rgb(0, 0, 0);
         }
         .btn-ride-left{
             font-size: 55px;
-            text-align: left;
             padding-right: 20px;
         }    
     }
 }
-// master of puppets fin
+// albums informativos fin

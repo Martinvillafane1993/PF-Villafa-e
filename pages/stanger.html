@@ -5,30 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../assets/img/favicon-32x32met.png" type="image/x-icon">
-    <link rel="stylesheet" href="../assets/CSS/Style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="assets/Img/favicon-32x32met.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
     <title>St. anger</title>
 </head>
 <body>
     <header>
-        <div>
-            <a href="../index.html"><img  class="Logoinicial" src="../assets/img/metallica.jpg" alt="Logo Metallica" /></a>
-        </div>
-        <nav id="nav">
-            <div>
-                <a href="http://www.metallica.com/store/" target="_blank" rel="noopener noreferrer">Tienda</a>
-                <a href="http://www.metallica.com/tour/" target="_blank" rel="noopener noreferrer">Tour</a>
-                <a href="../Pages/Login.html">Registrate</a>
-                <a href="../Pages/Historia.html">Historia</a>
+        <nav class="navbar navbar-expand-md navbar-dark barra">
+            <!-- Brand -->
+            <a class="navbar-brand f-letter" href="../index.html"> Metalifan</a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.metallica.com/tour/">Tour</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.metallica.com/store-landing-page/metstore/">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#forminicia">registrate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/albums.html">albums</a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
     <main>
-        <div id="fondo">
+        <div class="jumbotron container-m d-flex flex-wrap align-content-center cont-albums cont-stanger">
             <h1>St. Anger y some kid of Monster</h1>
-            <br>
-            <div class="text">
-                <img src="../assets/img/Albums/StAnger.jpg" alt="Imagen album stanger">
                 <p>En 2001, el bajista Jason Newsted, quien anteriormente había tenido serias discusiones con los demás
                     integrantes sobre sus proyectos fuera del grupo, abandonaría Metallica alegando desgaste físico y
                     motivos personales. Poco tiempo después, en la controvertida entrevista realizada por Playboy por
@@ -59,16 +77,38 @@
                     el grupo se apoya de un terapeuta para resolver los problemas previamente mencionados. También se
                     muestran los primeros momentos de Robert Trujillo como bajista de Metallica, incluyendo su audición para
                     entrar al grupo.</p>
-            </div>
+                    <div class="flechas">
+                        <section class="btn-ride-left">
+                            <a href="../pages/killemall.html"><i class="fa-solid fa-left-long" style="color: #ffffff;"></i><span>1996/97</span></a>
+                        </section>    
+                    <section class="btn-ride-derecha">
+                        <a href="../pages/master.html"><span>2008</span><i class="fa-solid fa-right-long"
+                                style="color: #ffffff;"></i></a>
+                    </section>    
+                    </div>    
         </div>
     </main>
     <footer>
-        <div class="contacto">
-            <a  href="../Pages/contacto.html">Contacto</a>
+        <div class="contanier-fluid container-m">
+            Todos los derechos reservados por Metallica
+            <section class="sociales">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </section>
         </div>
-        <br>
-        <em>Todos los derechos pertenecen a Metallica, la pagina es informativa y aqui no se difundira
-            informacion que no se haya verificado antes en la pagina oficial de la banda.</em>
-</footer>
+    </footer>
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous">
+</script>
 </body>
 </html>
