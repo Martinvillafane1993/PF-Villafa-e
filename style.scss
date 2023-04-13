@@ -48,8 +48,6 @@ html {
 }
 
 .cont-new-album {
-    width: 100%;
-    height: 600px;
     background-image: url(assets/Img/Main-Metalifan.gif);
     background-position: center;
     background-size: cover;
@@ -133,7 +131,107 @@ h2 {
     box-shadow: 0 0 40px 40px yellow inset;
     color: black;
 }
-
+.historia{
+    background-color: rgb(246, 250, 0);
+    padding: 0 6px 5px 6px;
+    h1{
+        background-color: black;
+        font-size: 35px;
+        font-family: Blackned;
+        width: 100%;
+        padding: 5px;
+        color: white;
+        text-align: center;
+    }
+    h2{
+        background-color:transparent;
+        text-align: start;
+        color: black;
+        font-size: 30px;
+    }
+    h3{
+        font-family: Blackned;
+        font-size: 18px;
+    }
+    .descanso1{
+        margin: 0 0 10px 0;
+        display:grid;
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 200px;
+        grid-gap: 5px;
+            .desc-img1{
+                background-image: url(assets/Img/metallicainicio.jpg);
+                width: 100%;
+                height: auto;
+                background-position: center;
+                background-size: cover;
+                grid-column: 1/2;
+                grid-row: 1/2;               
+                border: 3px solid black;
+            }
+            .desc-img2{
+                background-image: url(assets/Img/metallica_16.jpg);
+                width: 100%;
+                height: auto;
+                background-position: top;
+                background-size: cover;
+                grid-column: 2/3;
+                grid-row: 1/2;
+                border: 3px solid black;
+            }
+            .desc-img3{
+                background-image: url(assets/Img/Metallicarusia.jpg);
+                width: 100%;
+                height: auto;
+                background-position: center;
+                background-size: cover;
+                grid-column: 3/4;
+                grid-row: 1/2;    
+                border: 3px solid black;
+            }    
+    }
+    .descanso2{
+        margin: 0 0 10px 0;
+        display:grid;
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 200px;
+        grid-gap: 5px;
+        .desc2-img1{
+            background-image: url(assets/Img/hetfieldcanta.jpg);
+            width: 100%;
+            height: auto;
+            background-position: center;
+            background-size: cover;
+            grid-column: 1/2;
+            grid-row: 1/2;               
+            border: 3px solid black;
+        }
+        .desc2-img2{
+            background-image: url(assets/Img/lars-ulrich-actual.jpg);
+            width: 100%;
+            height: auto;
+            background-position: top;
+            background-size: cover;
+            grid-column: 2/3;
+            grid-row: 1/2;
+            border: 3px solid black;
+        }
+        .desc2-img3{
+            background-image: url(assets/Img/rob-y-kirk.jpg);
+            width: 100%;
+            height: auto;
+            background-position: top;
+            background-size: cover;
+            grid-column: 3/4;
+            grid-row: 1/2;
+            border: 3px solid black;
+        }
+    }
+}
 footer{
     margin: 0;
     height: 150px;
@@ -154,8 +252,98 @@ footer{
             color: white;
         }
     }
+}
+.subir{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: black;
+    border-radius: 50%;
+    border: 1px solid yellow;
+    font-size: 30px;
+    padding: 0 10px  ;
     
 }
+@media(min-width:320px) and (max-width:767px) {
+    .historia{
+        .descanso1{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(3, 200px);
+            grid-gap: 5px;
+            .desc-img1{
+                background-image: url(assets/Img/metallicainicio.jpg);
+                width: 100%;
+                height: auto;
+                background-position: center;
+                background-size: cover;
+                grid-column: 1/2;
+                grid-row: 1/2;
+                border: 3px solid black;
+        }
+            .desc-img2{
+                background-image: url(assets/Img/metallica_16.jpg);
+                width: 100%;
+                height: auto;
+                background-position: top;
+                background-size: cover;
+                grid-column: 1/2;
+                grid-row: 2/3;
+                border: 3px solid black;
+        }
+            .desc-img3{
+                background-image: url(assets/Img/Metallicarusia.jpg);
+                width: 100%;
+                height: auto;
+                background-position: center;
+                background-size: cover;
+                grid-column: 1/2;
+                grid-row: 3/4;
+                border: 3px solid black;
+        }
+        }
+    }    
+    .historia{
+        .descanso2{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(3, 200px);
+            grid-gap: 5px;
+            .desc2-img1{
+                background-image: url(assets/Img/hetfieldcanta.jpg);
+                width: 100%;
+                height: auto;
+                background-position: center;
+                background-size: cover;
+                grid-column: 1/2;
+                grid-row: 1/2;
+                border: 3px solid black;
+        }
+            .desc2-img2{
+                background-image: url(assets/Img/lars-ulrich-actual.jpg);
+                width: 100%;
+                height: auto;
+                background-position: top;
+                background-size: cover;
+                grid-column: 1/2;
+                grid-row: 2/3;
+                border: 3px solid black;
+        }
+            .desc2-img3{
+                background-image: url(assets/Img/rob-y-kirk.jpg);
+                width: 100%;
+                height: auto;
+                background-position: top;
+                background-size: cover;
+                grid-column: 1/2;
+                grid-row: 3/4;
+                border: 3px solid black;
+        }
+        }
+    }    
+    }
 // index finaliza
 // albums page inicia
 .conteiner-fluid.row{
@@ -216,7 +404,7 @@ h4{
     font-size: 25px;
     width: 50%;
 }
-
+// albums page fin
 
 .img1{
     background-image: url(assets/Img/Albums/kill-em-all-m-2.png);
@@ -247,7 +435,7 @@ h4{
 }
 // albums informativos inicia
 .cont-albums{
-    background-position: center, bottom 100px;
+    background-position: center;
     background-size: cover;
     margin: 0;
     h1{
@@ -266,11 +454,11 @@ h4{
     }
     .flechas{
         width: 100%;
-        height: 100px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
+        height: auto;
         .btn-ride-derecha{
-            font-size: 55px;
+            font-size: 35px;
             padding-right: 20px;
         }
         a{
@@ -281,7 +469,7 @@ h4{
             text-shadow: 0px 1px 7px rgb(254, 255, 253);
         }
         .btn-ride-left{
-            font-size: 55px;
+            font-size: 35px;
             padding-right: 20px;
         }    
     }
@@ -290,7 +478,7 @@ h4{
     background-image: url(assets/Img/Albums/kill-em-all-m-2.png);
     .flecha-kill{
         width: 100%;
-        height: 100px;
+        height: auto;
         display: flex;
         justify-content: flex-end;
         .btn-ride-derecha-kill{
@@ -341,8 +529,6 @@ h4{
 .cont-hardwired{
     background-image: url(assets/Img/Albums/hardwired.jpg);
     .flechas-hardwired{
-        display: flex;
-        justify-content: flex-end;
         a{
             color: white;
             font-size: 55px;
@@ -356,4 +542,14 @@ h4{
         }    
     }
 }
-// albums informativos fin
+@media(max-width:640px){
+    .cont-albums{
+        background-position: center;
+        background-size: inherit;
+        }
+        .flechas{
+            display: inline-flex;
+            justify-content:space-evenly;
+        }
+    }
+
