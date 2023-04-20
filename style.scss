@@ -16,6 +16,9 @@
 html {
     scroll-behavior: smooth;
 }
+body{
+    background-color: black;
+}
 // index incia
 .barra {
     background-color: black;
@@ -71,9 +74,8 @@ html {
     font-family: Blackned;
     text-align: center;
     display: flex;
-    overflow-x: hidden;
     a {
-        font-size: 50px;
+        font-size: 30px;
         background-color: rgba(0, 0, 0, 0.603);
         color: white;
         height: 200px;
@@ -344,6 +346,15 @@ footer{
         }
         }
     }    
+    }
+    @media(min-width: 768px) and (max-width: 1140px){
+        .albums{
+            width: 90%;
+            margin: 10px 10px 10px 50px;
+            a{
+                font-size: 50px;
+            }
+        }
     }
 // index finaliza
 // albums page inicia
