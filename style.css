@@ -108,28 +108,32 @@ h2 {
   background-image: url(assets/Img/Metallicasillon.jpg);
   background-size: cover;
   background-position: top;
-  padding: 10px;
+}
+.formulario .bg-form {
+  background-color: rgba(46, 46, 46, 0.658);
+  width: 100%;
+  padding: 15px;
 }
 .formulario .form-control {
-  background-color: rgba(0, 0, 0, 0.377);
+  background-color: rgba(63, 63, 63, 0.507);
   color: white;
   margin-bottom: 10px;
 }
 .formulario label {
   font-size: 15px;
   font-family: Blackned;
-  color: white;
+  color: yellow;
   letter-spacing: 1.5;
 }
 .formulario .btn {
   background-color: rgba(0, 0, 0, 0.068);
   border: 1px solid gray;
   font-family: Blackned;
-  color: white;
+  color: yellow;
   box-shadow: 0.2px ease-in-out;
 }
 .formulario .btn1 {
-  margin-top: 15px;
+  margin: 15px 0 15px 0;
 }
 
 .btn:hover {
@@ -142,12 +146,15 @@ h2 {
   background-color: rgb(246, 250, 0);
   padding: 0 6px 5px 6px;
 }
+.historia p {
+  padding: 0 10px 0 10px;
+}
 .historia h1 {
   background-color: black;
   font-size: 35px;
   font-family: Blackned;
   width: 100%;
-  padding: 5px;
+  padding-top: 5px;
   color: white;
   text-align: center;
 }
@@ -156,10 +163,12 @@ h2 {
   text-align: start;
   color: black;
   font-size: 30px;
+  padding-left: 5px;
 }
 .historia h3 {
   font-family: Blackned;
   font-size: 18px;
+  padding-left: 15px;
 }
 .historia .descanso1 {
   margin: 0 0 10px 0;
@@ -355,8 +364,7 @@ footer .sociales a {
   background-size: cover;
   width: 100%;
   height: auto;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px 0 15px 0;
   margin: 0;
   display: flex;
   justify-content: space-evenly;
@@ -373,6 +381,9 @@ footer .sociales a {
 .card {
   border: 2px solid black;
   margin: 5px;
+}
+.card .card-text {
+  padding: 0 10px 0 10px;
 }
 
 div {
